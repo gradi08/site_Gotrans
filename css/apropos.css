@@ -1,0 +1,70 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f9f9f9;
+  }
+
+  .header {
+    background-color: #343a40;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+  }
+
+  .header h1 {
+    animation: fadeInDown 1s ease-out;
+  }
+
+  @keyframes fadeInDown {
+    0% { opacity: 0; transform: translateY(-20px); }
+    100% { opacity: 1; transform: translateY(0); }
+  }
+
+  .about-section {
+    padding: 60px 20px;
+  }
+
+  .highlight {
+    color: #ffc107;
+  }
+
+  .values {
+    background-color: #fff3cd;
+    padding: 30px;
+    border-radius: 10px;
+  }
+
+  .values h5 {
+    color: #212529;
+  }
+
+  .btn-home {
+    margin-top: 30px;
+  }
+
+  .underline {
+    border-bottom: 1px solid #212529;
+    display: -ms-inline-flexbox;
+  }
+  .nav-link {
+    transition: background-color 0.3s;
+    /* Pour une transition douce */
+  }
+
+  .nav-link:hover {
+    /* background-color: #ffa500; */
+    /* Couleur de survol */
+    color: #ffa500;
+    /* Changez la couleur du texte si nécessaire */
+  }
+  .icon-hover {
+    transition: transform 0.3s ease, color 0.3s ease;
+}
+
+.icon-hover:hover {
+    transform: scale(1.1); /* Augmente la taille de l'icône au survol */
+    color: #ffa500; /* Change la couleur de l'icône au survol */
+}
+.nav-link.active {
+  color: #ffa500 !important; /* Change la couleur du texte à jaune */
+  /* Optionnel : rend le texte en gras */
+}
