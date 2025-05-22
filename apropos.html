@@ -89,8 +89,7 @@
     </div>
 </section> -->
 <section class="container my-3" id="valeur">
-    <h2 class="text-center mb-4">
-        <i class="bi bi-people-fill"></i> <!-- Icône qui exprime la valeur -->
+    <h2 class="text-center mb-4"> <!-- Icône qui exprime la valeur -->
         Nos valeurs
     </h2>
     <div class="row text-center">
@@ -118,48 +117,53 @@
     </div>
 </section>
   <!-- Pied de page -->
-  <div class="footer">
-
-    <div class="footer-center">
-        <div class="footer-icons">
-            <a href="#"><i class="bi bi-whatsapp icon-hover"></i></a>
-            <a href="#"><i class="bi bi-facebook icon-hover"></i></a>
-            <a href="#"><i class="bi bi-envelope icon-hover"></i></a>
-            <a href="#"><i class="bi bi-instagram icon-hover"></i></a>
-        </div>
-        <div class="footer-left">
-            <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" id="contactDropdown" role="button"
-                    data-bs-toggle="dropdown" aria-expanded="false">
-                    Apropos
-                </a>
-                <ul class="dropdown-menu bg-white text-dark" aria-labelledby="contactDropdown">
-                    <li><a class="dropdown-item text-dark" href="apropos.html#mission">Notre mission</a></li>
-                    <!-- <li><a class="dropdown-item text-dark" href="apropos.html#objectif">Nos objectifs</a></li> -->
-                    <li><a class="dropdown-item text-dark" href="apropos.html#valeur">Nos valeurs</a></li>
-                </ul>
-            </li>
-            <li><a class="nav-link"  href="contact.html">Contact</a></li>
-            <li><a class="nav-link" href="#">Mentions légales</a></li>
-            <li><a class="nav-link" href="#">Charte déontologique</a></li>
-            <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
-        </div>
-    </div>
-
+  <div class="footer bg-light py-4">
     <div class="container">
-        <div class="copyright">
-            <span>Copyright</span> <strong class="px-1 sitename">Gotrans</strong> <span>All Rights Reserved</span>
+        <div class="row justify-content-between align-items-center">
+            <!-- Icônes sociales -->
+            <div class="col-12 col-md-6 mb-3 mb-md-0 text-center text-md-start">
+                <div class="footer-icons d-flex justify-content-center justify-content-md-start gap-3">
+                    <a href="#"><i class="bi bi-whatsapp icon-hover"></i></a>
+                    <a href="#"><i class="bi bi-facebook icon-hover"></i></a>
+                    <a href="#"><i class="bi bi-envelope icon-hover"></i></a>
+                    <a href="#"><i class="bi bi-instagram icon-hover"></i></a>
+                </div>
+            </div>
+
+            <!-- Liens de navigation -->
+            <div class="col-12 col-md-6 text-center text-md-end">
+                <ul class="list-unstyled d-flex flex-column flex-md-row justify-content-center justify-content-md-end gap-3 mb-0">
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle p-0" href="#" id="contactDropdown" role="button"
+                            data-bs-toggle="dropdown" aria-expanded="false">
+                            À propos
+                        </a>
+                        <ul class="dropdown-menu bg-white text-dark" aria-labelledby="contactDropdown">
+                            <li><a class="dropdown-item" href="apropos.html#mission">Notre mission</a></li>
+                            <li><a class="dropdown-item" href="apropos.html#valeur">Nos valeurs</a></li>
+                        </ul>
+                    </li>
+                    <li><a class="nav-link p-0" href="contact.html">Contact</a></li>
+                    <li><a class="nav-link p-0" href="#">Mentions légales</a></li>
+                    <li><a class="nav-link p-0" href="#">Charte déontologique</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="credits">
-            <!-- All the links in the footer should remain intact. -->
-            <!-- You can delete the links only if you've purchased the pro version. -->
-            <!-- Licensing information: https://bootstrapmade.com/license/ -->
-            <!-- Purchase the pro version with working PHP/AJAX contact form: [buy-url] -->
-            Designed by <a href="https://bootstrapmade.com/">Menji drc</a>
+
+        <!-- Copyright -->
+        <div class="row mt-4">
+            <div class="col text-center">
+                <div class="copyright">
+                    &copy; <strong class="sitename">Gotrans</strong> - Tous droits réservés
+                </div>
+                <div class="credits">
+                    Design par <a href="https://menjidrc.com/">Menji drc</a>
+                </div>
+            </div>
         </div>
     </div>
-
 </div>
+
 <script>
     // Script pour activer la page courante dans la barre de navigation
     const navLinks = document.querySelectorAll('.navbar-nav .nav-link');

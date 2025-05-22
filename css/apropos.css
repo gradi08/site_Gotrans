@@ -68,3 +68,19 @@ body {
   color: #ffa500 !important; /* Change la couleur du texte à jaune */
   /* Optionnel : rend le texte en gras */
 }
+.footer-icons a {
+  color: #000;
+  font-size: 1.5rem;
+  transition: color 0.3s;
+}
+
+.footer-icons a:hover {
+  color: #007bff; /* Change de couleur au survol */
+}
+
+@media (max-width: 767px) {
+  .footer ul {
+      flex-direction: column;
+      align-items: center;
+  }
+}
