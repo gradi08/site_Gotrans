@@ -1,3 +1,6 @@
+/* *{
+  box-sizing: content-box;
+} */
 /* Hero Section */
 .hero {
     background: url('https://images.unsplash.com/photo-1581092160614-ec9a981f3e1d?auto=format&fit=crop&w=1400&q=80') no-repeat center center;
